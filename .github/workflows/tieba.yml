@@ -1,11 +1,11 @@
 # 每天6:30执行
 # UTC 时间，北京时间需要 UTC+8
-name: Start
+name: Start-贴吧签到
 
 on:
    workflow_dispatch:
    schedule:
-       - cron: '10 0 * * *'
+       - cron: '30 7 * * *' #每天7：30签到
 
 jobs:
   TiebaSignIn:
